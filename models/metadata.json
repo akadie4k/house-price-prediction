@@ -1,0 +1,52 @@
+{
+  "selected_model": "XGBRegressor",
+  "feature_order": [
+    "floor_area_m2",
+    "bedrooms",
+    "bathrooms",
+    "property_age_years",
+    "location_zone",
+    "property_type",
+    "parking_spaces"
+  ],
+  "target": "house_price_rm",
+  "units": "RM",
+  "training_input_ranges": {
+    "floor_area_m2": [
+      65.3,
+      479.5
+    ],
+    "bedrooms": [
+      1.0,
+      7.0
+    ],
+    "bathrooms": [
+      1.0,
+      6.0
+    ],
+    "property_age_years": [
+      0.0,
+      50.0
+    ],
+    "parking_spaces": [
+      0.0,
+      4.0
+    ]
+  },
+  "test_metrics": {
+    "R2": 0.9517475714355416,
+    "MAE_RM": 64301.10884166667,
+    "RMSE_RM": 91384.18311614596,
+    "MAPE_percent": 8.54620214754537
+  },
+  "python_version": "3.13",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "xgboost": "3.4.1"
+  },
+  "scope": "Synthetic teaching data only"
+}
