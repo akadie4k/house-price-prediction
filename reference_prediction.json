@@ -1,0 +1,12 @@
+{
+  "input": {
+    "floor_area_m2": 200.0,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "property_age_years": 10,
+    "location_zone": "Suburban",
+    "property_type": "Terrace",
+    "parking_spaces": 2
+  },
+  "expected_prediction_rm": 721590.25
+}
